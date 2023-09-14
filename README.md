@@ -1,2 +1,2 @@
-# code-institute-MSP2
+# Matching Marvel
 Interactive Frontend Development Milestone Project
