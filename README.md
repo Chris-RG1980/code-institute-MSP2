@@ -1,7 +1,11 @@
 # Matching Marvel
 Welcome to "Matching Marvel," a game designed especially for children! Get ready to embark on a journey of colourful discovery as you dive into the world of marvel pictures. "Matching Marvel" is a captivating picture matching game that not only provides hours of entertainment but also enhances cognitive skills and memory in a fun and interactive way. Whether you're a young explorer seeking adventure or a parent looking for an engaging and educational activity for your child, this game is made to bring joy and excitement to players of all ages. 
 ***
-
+**Contents**
+- [Matching Marvel](#matching-marvel)
+  - [User Stories](#user-stories)
+    - [New User](#new-user)
+    - [Returning User](#returning-user)
 ***
 ## User Stories
 ### New User
