@@ -6,6 +6,9 @@ Welcome to "Matching Marvel," a game designed especially for children! Get ready
   - [User Stories](#user-stories)
     - [New User](#new-user)
     - [Returning User](#returning-user)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Future Features](#future-features)
 ***
 ## User Stories
 ### New User
