@@ -9,6 +9,7 @@ Welcome to "Matching Marvel," a game designed especially for children! Get ready
   - [Features](#features)
     - [Existing Features](#existing-features)
     - [Future Features](#future-features)
+  - [Wire-frames](#wire-frames)
 ***
 ## User Stories
 ### New User
@@ -42,3 +43,9 @@ Functionality: This feature will allow you to customize the game's difficulty by
 2. Additional Pages   
 Description: Addition pages could be added to create a Marvel universe fan site.   
 Functionality: You could find a fan page where you can explore Marvel fandom, discuss your favourite characters, and share your achievements. Additionally, a character information page could be added where you can learn more about the Marvel characters featured in the game, enriching your Marvel knowledge.
+***
+## Wire-frames
+[Mobile Game Page](resources/wireframes/matching-marvel-mobile.png)  
+[Tablet Game Page](resources/wireframes/matching-marvel-tablet.png)  
+[Desktop Game Page](resources/wireframes/matching-marvel-desktop.png)  
+
