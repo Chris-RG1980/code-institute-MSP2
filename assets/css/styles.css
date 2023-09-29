@@ -1,3 +1,9 @@
+body {
+  background-color: #fff;
+  background-image: url("/assets/images/background-image.webp");
+  background-size: cover; 
+}
+
 .header {
   background-color: #ffbe0b;
   width: 50%;
