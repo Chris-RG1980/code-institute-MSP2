@@ -1,0 +1,22 @@
+.header {
+  background-color: #ffbe0b;
+  width: 50%;
+  height: 200px;
+  border: 10px solid #000000;
+  margin-left: 25%;
+}
+
+h1 {
+  color: #d30010;
+  font-family: Bangers;
+  font-size: 6rem;
+  text-align: center;
+  margin: 0;
+}
+
+.tag-line {
+  font-family: Boogaloo;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
