@@ -26,3 +26,14 @@ h1 {
   text-align: center;
   margin: 0;
 }
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  background-color: #000000;
+  border: 15px solid #000000;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 25%;
+}
