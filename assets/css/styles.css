@@ -1,3 +1,17 @@
+/* Colours */
+
+.red-bg-color {
+  background-color: #d30010;
+}
+
+.yellow-bg-color {
+  background-color: #ffbe0b;
+}
+
+.light-blue-bg-color {
+  background-color: #048BA8;
+}
+
 body {
   background-color: #fff;
   background-image: url("/assets/images/background-image.webp");
@@ -5,7 +19,6 @@ body {
 }
 
 .header {
-  background-color: #ffbe0b;
   width: 50%;
   height: 200px;
   border: 15px solid #000000;
@@ -25,6 +38,23 @@ h1 {
   font-size: 3rem;
   text-align: center;
   margin: 0;
+}
+
+.score-box {
+  border: 14px solid #000000;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 25%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.score-item {
+  border: 1px solid #000000;
+  font-family: Boogaloo;
+  font-size: 2rem;
+  padding-left: 5px;
+  ba
 }
 
 .grid-container {
@@ -47,6 +77,7 @@ h1 {
   background-size: cover; 
 }
 
+/* Shake animation learned from freeCodeCamp (Learn CSS Animation by Building a Ferris Wheel Module) */
 .shake:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
