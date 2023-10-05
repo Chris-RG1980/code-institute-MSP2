@@ -12,11 +12,33 @@
   background-color: #048BA8;
 }
 
+.white-bg-color {
+  background-color: #ffffff;
+}
+
+/* Fonts */
+
+.main-heading {
+  font-family: Bangers;
+}
+
+.sub-headings {
+  font-family: Boogaloo;
+}
+
+.other-text {
+  font-family: Quicksand;
+}
+
+/* Background Image */
+
 body {
   background-color: #fff;
   background-image: url("/assets/images/background-image.webp");
   background-size: cover; 
 }
+
+/* Heading */
 
 .header {
   width: 50%;
@@ -40,6 +62,8 @@ h1 {
   margin: 0;
 }
 
+/* Score Board */
+
 .score-box {
   border: 14px solid #000000;
   width: 50%;
@@ -54,8 +78,9 @@ h1 {
   font-family: Boogaloo;
   font-size: 2rem;
   padding-left: 5px;
-  ba
 }
+
+/* Game Grid */
 
 .grid-container {
   display: inline-grid;
@@ -95,4 +120,14 @@ h1 {
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* Instructions Box */
+
+.instructions-container {
+  width: 50%;
+  border: 15px solid #000000;
+  margin-left: 25%;
+  margin-top: 20px;
+  padding: 5px;
 }
