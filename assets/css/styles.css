@@ -49,14 +49,12 @@ body {
 
 h1 {
   color: #d30010;
-  font-family: Bangers;
   font-size: 6rem;
   text-align: center;
   margin: 0;
 }
 
 .tag-line {
-  font-family: Boogaloo;
   font-size: 3rem;
   text-align: center;
   margin: 0;
@@ -75,7 +73,6 @@ h1 {
 
 .score-item {
   border: 1px solid #000000;
-  font-family: Boogaloo;
   font-size: 2rem;
   padding-left: 5px;
 }
