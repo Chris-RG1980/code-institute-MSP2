@@ -30,21 +30,21 @@
   font-family: Quicksand;
 }
 
-/* Background Image */
+/* Background Image (All Pages)*/
 
 body {
   background-image: url("/assets/images/background-image.webp");
   background-size: cover; 
 }
 
-/* Main Container */
+/* Main Container (All Pages)*/
 
 .container {
   width: 50%;
   margin: 0 auto;
 }
 
-/* Heading */
+/* Heading (All Pages)*/
 
 .header {
   height: fit-content;
@@ -52,6 +52,10 @@ body {
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
+}
+
+.anchor {
+  text-decoration: none;
 }
 
 h1 {
@@ -65,9 +69,30 @@ h1 {
   font-size: 3rem;
   text-align: center;
   margin: 0;
+  color: #000000;
 }
 
-/* Score Board */
+/* Instructions Box (index.html)*/
+
+.instructions-container {
+  width: 100%;
+  border: 10px solid #000000;
+  margin: 20px auto;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+/* Play Button (index.html) */
+.play-button {
+  height: 50px;
+  border: 10px solid #000000;
+  display: block;
+  color: #000000;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Score Board (game.html) */
 
 .score-box {
   width: 100%;
@@ -84,7 +109,7 @@ h1 {
   padding-left: 5px;
 }
 
-/* Game Grid */
+/* Game Grid (game.html)*/
 
 .grid-container {
   width: 100%;
@@ -106,7 +131,7 @@ h1 {
   background-size: cover; 
 }
 
-/* Shake animation learned from freeCodeCamp (Learn CSS Animation by Building a Ferris Wheel Module) */
+/* Shake animation learned from freeCodeCamp (Learn CSS Animation by Building a Ferris Wheel Module) (game.html) */
 .shake:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -126,17 +151,7 @@ h1 {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-/* Instructions Box */
-
-.instructions-container {
-  width: 100%;
-  border: 10px solid #000000;
-  margin: 20px auto;
-  padding: 2px;
-  box-sizing: border-box;
-}
-
-/* Responsiveness */
+/* Responsiveness  (All Pages) */
 
 @media screen and (min-width: 2000px) {
   .grid-item {
