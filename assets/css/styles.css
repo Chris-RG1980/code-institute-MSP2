@@ -38,13 +38,21 @@ body {
   background-size: cover; 
 }
 
+/* Main Container */
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
 /* Heading */
 
 .header {
-  width: 50%;
-  height: 200px;
-  border: 15px solid #000000;
-  margin-left: 25%;
+  height: fit-content;
+  border: 10px solid #000000;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -63,12 +71,12 @@ h1 {
 /* Score Board */
 
 .score-box {
-  border: 14px solid #000000;
-  width: 50%;
-  margin-top: 20px;
-  margin-left: 25%;
+  width: 100%;
+  border: 9px solid #000000;
+  margin: 20px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  box-sizing: border-box;
 }
 
 .score-item {
@@ -80,19 +88,19 @@ h1 {
 /* Game Grid */
 
 .grid-container {
+  width: 100%;
   display: inline-grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
+  gap: 10px;
   background-color: #000000;
-  border: 15px solid #000000;
-  width: 50%;
-  margin-top: 20px;
-  margin-left: 25%;
+  border: 10px solid #000000;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .grid-item  {
   width: 100%;
-  height: 150px;
+  height: 200px;
   background-image: url(/assets/images/game-cover-image.webp);
   background-position: center; 
   background-repeat: no-repeat; 
@@ -122,9 +130,91 @@ h1 {
 /* Instructions Box */
 
 .instructions-container {
-  width: 50%;
-  border: 15px solid #000000;
-  margin-left: 25%;
-  margin-top: 20px;
-  padding: 5px;
+  width: 100%;
+  border: 10px solid #000000;
+  margin: 20px auto;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+/* Responsiveness */
+
+@media screen and (min-width: 2000px) {
+  .grid-item {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .grid-item {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .grid-item {
+    height: 175px;
+  }
+}
+
+@media screen and (max-width: 1400px ) {
+  .grid-item {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    width: 60%;
+  }
+
+  .grid-item {
+    height: 125px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .tag-line {
+    font-size: 2rem;
+  }
+
+  .score-item {
+    font-size: 1rem;
+  }
+
+  .grid-item {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .tag-line {
+    font-size: 1rem;
+  }
 }
