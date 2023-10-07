@@ -33,7 +33,6 @@
 /* Background Image */
 
 body {
-  background-color: #fff;
   background-image: url("/assets/images/background-image.webp");
   background-size: cover; 
 }
