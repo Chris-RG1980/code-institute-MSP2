@@ -4,7 +4,21 @@ class MemoryGame {
     this.test = test;
   }
 
-  testData() {
-    console.log(this.test);
+  start() {
+
   }
+
+  guess() {
+
+  }
+
+  reset() {
+
+  }
+
+  end() {
+
+  }
+
+
 }
