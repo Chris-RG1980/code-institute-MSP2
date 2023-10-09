@@ -9,6 +9,6 @@ const gameData = [
   {id: 8, image: 'thor.webp'}
 ];
 
-let game = new MemoryGame(123);
+let game = new MemoryGame(gameData);
 
 game.start();
