@@ -19,6 +19,15 @@ class MemoryGame {
   end() {
 
   }
+};
 
-
-}
+const dataArray = [
+  {id: , image: },
+  {id: , image: },
+  {id: , image: },
+  {id: , image: },
+  {id: , image: },
+  {id: , image: },
+  {id: , image: },
+  {id: , image: }
+];
