@@ -10,3 +10,5 @@ const gameData = [
 ];
 
 let game = new MemoryGame(gameData);
+
+game.start();
