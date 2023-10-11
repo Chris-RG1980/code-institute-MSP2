@@ -14,6 +14,6 @@ let game = new MemoryGame(gameData);
 game.start();
 
 console.log(game.guess(0));
-console.log(game.guess(8));
+console.log(game.guess(7));
 console.log(game.guess(0));
 console.log(game.guess(8));
