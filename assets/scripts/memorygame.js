@@ -3,6 +3,7 @@ class MemoryGame {
   guessedItems = []; // An array to store the two items that have been chosen.
   minPositionGuess = 0; // This is the lowest position that can be guessed.
   matchedItemsIds = []; // An array to store the ID of a correct match.
+  numberOfGuessesTaken = 0; // Total number of guesses taken to complete game.
 
   constructor(gameData) {
     if (!(gameData instanceof Array)) {
@@ -23,7 +24,6 @@ class MemoryGame {
     array.push(...array.slice());
     return array;
   }
-
 
   // Randomise the order of the objects within the array.
   //Credit: Fisher-Yates Sorting Algorithm https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/
@@ -47,40 +47,50 @@ class MemoryGame {
     let item = this.gameData[position]; // Store the selected position in this instance of the gameData array.
     this.guessedItems.push(item); // Push the selected position into the guessedItems array. 
 
-    let guessedItemsMaxLength = this.guessedItems.length === 2; // Check if only 2 guesses made. Returns Boolean.
+    let isMaxAmountOfGuesses = this.guessedItems.length === 2; // Check if only 2 guesses made. Returns Boolean.
 
     // If only 2 guesses made and the id's for each selected object match this is a match.
-    let isMatch = guessedItemsMaxLength && 
+    let isMatch = isMaxAmountOfGuesses && 
       this.guessedItems[0].id === this.guessedItems[1].id; 
 
+    let hasPreviouslyMatched = this.matchedItemsIds.includes(this.guessedItems[0].id);
+
     // If a match is made and the id of the matched object is not in the matchedItemsIds add it. 
-    if (isMatch && !this.matchedItemsIds.includes(this.guessedItems[0].id)) {
+    if (isMatch && !hasPreviouslyMatched) {
       this.matchedItemsIds.push(this.guessedItems[0].id); 
     }
 
     // Return a copy of this instance of the guessedItems array. 
     let originalGuessedItems = this.guessedItems.slice();
 
-    // Clear this instance of the guessedItems array. 
-    if (guessedItemsMaxLength) {
+    if (isMaxAmountOfGuesses) {
+      // Clear this instance of the guessedItems array. 
       this.guessedItems = [];
+      // increment the numberOfGuessesTaken by 1.
+      this.numberOfGuessesTaken++;
     }
+
+    // Count the total number of matches made. 
+    let matchScore = this.matchedItemsIds.length; 
 
     // If the length of this instance of the matchedItemsIds array is equal to this instance of the originalGameDataLength then the game is won.
     let isGameWon = this.matchedItemsIds.length === this.originalGameDataLength;
+    let numberOfGuessesTaken = this.numberOfGuessesTaken;
 
     return {
       originalGuessedItems, 
       isMatch,
-      isGameWon
+      isGameWon,
+      matchScore,
+      numberOfGuessesTaken
     }
   }
 
   reset() {
-
-  }
-
-  end() {
-
+    // Reset all properties
+    this.guessedItems = []; 
+    this.minPositionGuess = 0; 
+    this.matchedItemsIds = []; 
+    this.numberOfGuessesTaken = 0; 
   }
 };
