@@ -1,0 +1,17 @@
+{
+  "name": "code-institute-msp2",
+  "version": "1.0.0",
+  "description": "Welcome to \"Matching Marvel,\" a game designed especially for children! Get ready to embark on a journey of colourful discovery as you dive into the world of marvel pictures. \"Matching Marvel\" is a captivating picture matching game that not only provides hours of entertainment but also enhances cognitive skills and memory in a fun and interactive way. Whether you're a young explorer seeking adventure or a parent looking for an engaging and educational activity for your child, this game is made to bring joy and excitement to players of all ages. \r ***\r **Contents**\r - [Matching Marvel](#matching-marvel)\r   - [User Stories](#user-stories)\r     - [New User](#new-user)\r     - [Returning User](#returning-user)\r   - [Features](#features)\r     - [Existing Features](#existing-features)\r     - [Future Features](#future-features)\r   - [Wire-frames](#wire-frames)\r   - [UX Design](#ux-design)\r     - [Intuitive Gameplay](#intuitive-gameplay)\r     - [Simple User Interface](#simple-user-interface)\r     - [Typography](#typography)\r     - [Colour Scheme](#colour-scheme)\r     - [Interactive Elements](#interactive-elements)\r     - [Visual Feedback](#visual-feedback)\r     - [Progress Tracking](#progress-tracking)\r     - [Responsive Design](#responsive-design)\r ***\r ## User Stories\r ### New User\r 1.\tI would like to see how fast I can complete the game.\r 2.\tI would like to know how many moves it took me to complete the game.\r 3.\tI would like to know how many times I didn’t match an image.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "jest": "^29.7.0"
+  }
+}

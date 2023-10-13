@@ -1,22 +1,25 @@
-class MemoryGame {
+export class MemoryGame {
 
   guessedItems = []; // An array to store the two items that have been chosen.
   minPositionGuess = 0; // This is the lowest position that can be guessed.
   matchedItemsIds = []; // An array to store the ID of a correct match.
   numberOfGuessesTaken = 0; // Total number of guesses taken to complete game.
 
-  constructor(gameData) {
+  constructor(gameData, shouldRandomise) {
     if (!(gameData instanceof Array)) {
       throw new Error('Parameter is not an Array!'); // An error will be displayed in the console if the game data passed in to the constructor is not an array. 
     }
+    this.originalGameDataLength = gameData.length; // The length of the original gameData array.
     this.gameData = this.duplicateArray(gameData); // Call the duplicateArray function and creates an object to be used for this instance game.
     this.maxPositionGuess =  this.gameData.length - 1; // This is the highest position that can be guessed.
-    this.originalGameDataLength = gameData.length; // The length of the original gameData array.
+    this.shouldRandomise = shouldRandomise; // This disables randomisation for testing. 
   }
 
   // Call the randomiseArray function to randomise the objects within the array for this instance of the game and assign it to itself.
   start() {
-    this.gameData = this.randomiseArray(this.gameData);
+    if (this.shouldRandomise !== false) {
+      this.gameData = this.randomiseArray(this.gameData);
+    }
   }
 
   // Copy the game data  array and add it to the existing game data array
@@ -89,7 +92,6 @@ class MemoryGame {
   reset() {
     // Reset all properties
     this.guessedItems = []; 
-    this.minPositionGuess = 0; 
     this.matchedItemsIds = []; 
     this.numberOfGuessesTaken = 0; 
   }
