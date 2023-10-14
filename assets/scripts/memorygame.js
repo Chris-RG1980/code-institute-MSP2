@@ -48,6 +48,7 @@ export class MemoryGame {
     }
 
     let item = this.gameData[position]; // Store the selected position in this instance of the gameData array.
+    item.position = position;
     this.guessedItems.push(item); // Push the selected position into the guessedItems array. 
 
     let isMaxAmountOfGuesses = this.guessedItems.length === 2; // Check if only 2 guesses made. Returns Boolean.
@@ -85,7 +86,8 @@ export class MemoryGame {
       isMatch,
       isGameWon,
       matchScore,
-      numberOfGuessesTaken
+      numberOfGuessesTaken,
+      isMaxAmountOfGuesses
     }
   }
 
