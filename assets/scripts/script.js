@@ -25,6 +25,7 @@ function setupGame() {
 
 function addEventListeners() {
   $(".game-item").click(gameItemClick);
+  $("#reset-button").click(resetGame);
 }
 
 function gameItemClick() {
@@ -41,5 +42,11 @@ function gameItemClick() {
     $(".game-item.clicked").removeClass("clicked").addClass("matched");
   }
   console.log(gameGuess.isGameWon);
+}
+
+// Function to reset the game. Todo: Add time and scores to this function.
+function resetGame() {
+  $(".game-item").css("background-image", `url(/assets/images/question-mark.webp)`).removeClass("matched");
+  game.reset();
 }
 
