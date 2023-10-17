@@ -139,7 +139,7 @@ h1 {
 
 /* Reset Button */
 #reset-button {
-  width: 25%;
+  width: 30%;
   height: 75px;
   border: 10px solid #000000;
   margin-top: 10px;
@@ -251,6 +251,10 @@ button:hover {
   .game-item {
     height: 100px;
   }
+
+  #reset-button {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 270px) {
@@ -259,6 +263,10 @@ button:hover {
   }
 
   .tag-line {
+    font-size: 1rem;
+  }
+
+  #reset-button {
     font-size: 1rem;
   }
 }
