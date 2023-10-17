@@ -4,10 +4,10 @@ const gameData = [
   {id: 2, image: '/assets/images/captain-america.webp' },
   {id: 3, image: '/assets/images/captain-marvel.webp' },
   {id: 4, image: '/assets/images/groot.webp' },
-  {id: 5, image: '/assets/images/incredible-hulk.webp'},
+  {id: 5, image: '/assets/images/hulk.webp'},
   {id: 6, image: '/assets/images/iron-man.webp' },
   {id: 7, image: '/assets/images/spiderman.webp' },
-  {id: 8, image: '/assets/images/thor2.webp'}
+  {id: 8, image: '/assets/images/thor.webp'}
 ];
 
 let game = new MemoryGame(gameData);
