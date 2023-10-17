@@ -159,25 +159,25 @@ h1 {
 /* Responsiveness  (All Pages) */
 
 @media screen and (min-width: 2000px) {
-  .grid-item {
-    height: 250px;
+  .game-item {
+    height: 300px;
   }
 }
 
 @media screen and (max-width: 2000px) {
-  .grid-item {
+  .game-item {
     height: 200px;
   }
 }
 
 @media screen and (max-width: 1600px) {
-  .grid-item {
+  .game-item {
     height: 175px;
   }
 }
 
 @media screen and (max-width: 1400px ) {
-  .grid-item {
+  .game-item {
     height: 150px;
   }
 }
@@ -187,7 +187,7 @@ h1 {
     width: 60%;
   }
 
-  .grid-item {
+  .game-item {
     height: 125px;
   }
 }
@@ -202,11 +202,22 @@ h1 {
   .container {
     width: 80%;
   }
+  .game-item {
+    height: 125px
+  }
 }
 
 @media screen and (max-width: 760px) {
   .container {
     width: 90%;
+  }
+
+  .game-item {
+    height: 125px
+  }
+  
+  .game-container {
+    gap: 5px;
   }
 }
 
@@ -223,8 +234,8 @@ h1 {
     font-size: 1rem;
   }
 
-  .grid-item {
-    height: 80px;
+  .game-item {
+    height: 100px;
   }
 }
 
