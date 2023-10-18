@@ -63,7 +63,7 @@ body {
   font-size: 6rem;
   text-align: center;
   margin: 0;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: 6px 4px 0 #000;
 }
 
 /* Used in heading of index.html */
@@ -135,20 +135,20 @@ body {
 #matching-marvel h3 {
   font-size: 4rem;
   color: #ffbe0b;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: 6px 4px 0 #000;
 }
 
 .matching-marvel-tag {
   font-size: 1.5rem;
   color: #ffbe0b;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000;
 }
 
 .play-click {
   color: #048BA8;
   text-align: center;
   font-size: 3rem;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: 6px 4px 0 #000;
 }
 
 .game-anchor {
@@ -166,7 +166,7 @@ body {
   text-align: center;
   margin: 0;
   color: #ffbe0b;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000;
 }
 
 /* Score Board (game.html) */
@@ -216,7 +216,7 @@ body {
   margin-top: 10px;
   color: #ffffff;
   font-size: 3rem;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000;
 }
 
 button:hover {
