@@ -94,5 +94,6 @@ function resetGame() {
   totalMatches(0);
   isGameWon = false;
   isGameStarted = false;
+  game.start();
 }
 
