@@ -1,8 +1,16 @@
-# Matching Marvel
-Welcome to "Matching Marvel," a game designed especially for children! Get ready to embark on a journey of colourful discovery as you dive into the world of marvel pictures. "Matching Marvel" is a captivating picture matching game that not only provides hours of entertainment but also enhances cognitive skills and memory in a fun and interactive way. Whether you're a young explorer seeking adventure or a parent looking for an engaging and educational activity for your child, this game is made to bring joy and excitement to players of all ages. 
+# The Matching Games
+Welcome to "The Matching Games", the home of matching games! "The Matching Games" is a home for picture matching games that not only provides hours of entertainment but also enhances cognitive skills and memory in a fun and interactive way. Whether you're a young explorer seeking adventure or a parent looking for an engaging and educational activity for your child, this game is made to bring joy and excitement to players of all ages. 
+
+![Image](resources/all-devices-black.png)
+
+![Static Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Static Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Static Badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Static Badge](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ***
 **Contents**
-- [Matching Marvel](#matching-marvel)
+- [The Matching Games](#the-matching-games)
   - [User Stories](#user-stories)
     - [New User](#new-user)
     - [Returning User](#returning-user)
@@ -24,36 +32,50 @@ Welcome to "Matching Marvel," a game designed especially for children! Get ready
 ### New User
 1.	I would like to see how fast I can complete the game.
 2.	I would like to know how many moves it took me to complete the game.
-3.	I would like to know how many times I didn’t match an image. 
+3.	I would like to know how to play the picture matching games.
 
 ### Returning User
-1.	I would like to challenge my matching skills in "Matching Marvel" and aim for faster times.
+1.	I would like to be able to reset the game and aim for faster times.
 2.	I would like to see if I can complete the game with less moves. 
+3.  I would like to be able to play the game across on different devices. 
 ***
 ## Features
-An overview of the game's features.
+Within the game I have used Object-Oriented Programming (OOP) so that the game can accept different data sets to have different themes per game. This means that the game is structured around objects, which are instances of classes that contain data and methods. The use of OOP allows for greater flexibility and modularity in the code, making it easier to add new features or modify existing ones and making unit testing easier. By accepting different data sets, the game can be customized to suit different themes, such as sports, animals, or movies. This makes it more engaging and enjoyable for players who have different interests and preferences.
 ### Existing Features
-1. No Match Box  
-Description: This box keeps track of the number of incorrect matches you make during the game.  
-Functionality: Every time you make an incorrect match, the count in this box will increase, allowing you to keep an eye on your progress and improve your memory skills.
-2. Match Box  
+- Instructions & Gameplay *(See figure 1 below)*      
+Description: This section provides a detailed explanation of how to play the matching memory games.  
+Functionality: Refer to this section if you're new to the game or need a refresher on the rules and objectives.
+- Game Selection Boxes *(See figure 2 below)*               
+Description: This is where the game is selected to be played.                    
+Functionality: Click on this box to start the selected game.
+- Guess box *(See figure 3 below)*             
+Description: This box keeps track of the total number of moves you make during the game.  
+Functionality: Every time two game images are selected the count in this box will increase, allowing you to see how many moves you took to complete the game.
+- Match Box *(See figure 3 below)*        
 Description: The Match box keeps track of the number of correct matches you make during the game.  
-Functionality: Whenever you successfully match two identical Marvel-themed cards, the count in this box will increase. Challenge yourself to get the highest number of matches!
-3. Time Box  
+Functionality: Whenever you successfully match two identical images, the count in this box will increase. Challenge yourself to get the highest number of matches!
+- Time Box  *(See figure 3 below)*  
 Description: The Time box measures the time it takes for you to complete the game.  
 Functionality: The timer starts when you begin the game and stops when you successfully match all the pairs. Try to beat your own time record or challenge your friends to see who can complete the game the fastest.
-4. Game Rules  
-Description: This section provides a detailed explanation of how to play the Matching Marvel Memory Game.  
-Functionality: Refer to this section if you're new to the game or need a refresher on the rules and objectives.
+
+![Image](resources/features-images.png)                   
+
 ### Future Features
-1. Custom Grid Size  
+- Custom Grid Size  
 Description: The ability for players to select a different number of squares in the grid.  
 Functionality: This feature will allow you to customize the game's difficulty by choosing the grid size that suits your skill level. Whether you want a quick and easy game or a challenging experience, you'll have the option to tailor the grid to your preference.
-2. Additional Pages   
-Description: Addition pages could be added to create a Marvel universe fan site.   
-Functionality: You could find a fan page where you can explore Marvel fandom, discuss your favourite characters, and share your achievements. Additionally, a character information page could be added where you can learn more about the Marvel characters featured in the game, enriching your Marvel knowledge.
+- Additional Games   
+Description: Additional games for different themes.  
+Functionality: Additional themes could be added to the homepage so that players could play an image matching game with a different theme and data set.
 ***
 ## Wire-frames
+[Mobile Homepage](resources/wireframes/mobile-homepage.png)    
+[Mobile Game Page](resources/wireframes/mobile-game-page.png)    
+[Tablet Homepage](resources/wireframes/tablet-homepage.png)   
+[Tablet Game Page](resources/wireframes/tablet-game-page.png)        
+[Desktop Homepage](resources/wireframes/desktop-homepage.png)             
+[Desktop Game Page](resources/wireframes/desktop-game-page.png)             
+
 [Mobile Game Page](resources/wireframes/matching-marvel-mobile.png)  
 [Tablet Game Page](resources/wireframes/matching-marvel-tablet.png)  
 [Desktop Game Page](resources/wireframes/matching-marvel-desktop.png)  
