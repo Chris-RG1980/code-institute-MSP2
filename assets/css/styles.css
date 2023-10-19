@@ -32,10 +32,11 @@
 
 /* Background Image (All Pages)*/
 
-body {
+body{
   background-image: url("/assets/images/game-cover-image.webp");
   background-size: cover; 
 }
+
 
 /* Main Container (All Pages)*/
 
@@ -226,6 +227,12 @@ button:hover {
 .block-center {
   display: block;
   margin: 0 auto;
+}
+
+/* 404 Page */
+.error-image {
+  width: 100%;
+  height: auto;
 }
 
 /* Responsiveness  (All Pages) */
