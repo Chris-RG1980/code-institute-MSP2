@@ -26,15 +26,12 @@
   font-family: Boogaloo;
 }
 
-.other-text {
-  font-family: Quicksand;
-}
-
 /* Background Image (All Pages)*/
 
 body{
   background-image: url("/assets/images/game-cover-image.webp");
-  background-size: cover; 
+  background-size: cover;
+  font-family: Quicksand;
 }
 
 
