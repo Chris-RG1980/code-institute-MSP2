@@ -15,6 +15,7 @@ let selectionReset = false;
 let isGameStarted = false;
 let isGameWon = false;
 const timer = new Timer();
+let totalTime = '0:00';
 
 setupGame();
 
@@ -31,12 +32,14 @@ function setupGame() {
 function addEventListeners() {
   $(".game-item").click(gameItemClick);
   $("#reset-button").click(resetGame);
-  setInterval(() => {
-    let timeInMinutes = Math.floor(timer.getTime() / 60000).toString().padStart(1, "0");
-    let timeInSeconds = ((timer.getTime() % 60000) / 1000).toFixed(0).toString().padStart(2, "0");
-    $('.total-time').text(`${timeInMinutes}:${timeInSeconds}`);
-  }, 100)
-  
+  setInterval(getTotalTime, 100) 
+}
+
+function getTotalTime() {
+  let timeInMinutes = Math.floor(timer.getTime() / 60000).toString().padStart(1, "0");
+  let timeInSeconds = ((timer.getTime() % 60000) / 1000).toFixed(0).toString().padStart(2, "0");
+  totalTime = `${timeInMinutes}:${timeInSeconds}`;
+  $('.total-time').text(totalTime);
 }
 
 function gameItemClick() {
@@ -72,6 +75,11 @@ function gameItemClick() {
   if (gameGuess.isGameWon) {
     isGameWon = true;
     timer.stop();
+    Swal.fire(
+      'Good job!',
+      `You've Won, In a time of ${totalTime}`,
+      'success'
+    );
   }
 }
 
