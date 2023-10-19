@@ -19,11 +19,11 @@
 /* Fonts */
 
 .main-heading {
-  font-family: Bangers;
+  font-family: Bangers, cursive;
 }
 
 .sub-headings {
-  font-family: Boogaloo;
+  font-family: Boogaloo, cursive;
 }
 
 /* Background Image (All Pages)*/
@@ -31,7 +31,7 @@
 body{
   background-image: url("/assets/images/game-cover-image.webp");
   background-size: cover;
-  font-family: Quicksand;
+  font-family: Quicksand, sans-serif;
 }
 
 
