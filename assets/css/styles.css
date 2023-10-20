@@ -203,8 +203,9 @@ body{
 
 .matching-marvel-tag {
   font-size: 1.5rem;
-  color: #ffbe0b;
-  text-shadow: -1px -1px 0 #000;
+  color: #309305;
+  text-shadow: 6px 2px 0 #000;
+  font-weight: bold;
 }
 
 .play-click {
@@ -272,7 +273,7 @@ body{
 /* Reset Button (game.html)*/
 
 #reset-button {
-  width: 30%;
+  width: 35%;
   height: 75px;
   border: 10px solid #000000;
   margin-top: 10px;
@@ -376,7 +377,7 @@ button:hover {
 
 @media screen and (max-width: 680px) {
   .heading {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .tag-line {
@@ -397,6 +398,10 @@ button:hover {
 }
 
 @media screen and (max-width: 360px) {
+  .heading {
+    font-size: 3.25rem;
+  }
+
   .social-media-icons li a img {
     width: 40px;
     height: auto;
