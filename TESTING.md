@@ -10,6 +10,7 @@
     - [Summary](#summary)
   - [Automated Testing](#automated-testing)
     - [Jest Testing](#jest-testing)
+      - [Results](#results)
     - [W3C Validator](#w3c-validator)
     - [Validation Summary](#validation-summary)
     - [Lighthouse](#lighthouse)
@@ -51,7 +52,10 @@ Desktop 1080p: 1920 x 1080
 ***
 ## Automated Testing
 ### Jest Testing
-
+Automated testing enhances efficiency and bug detection. It also helps find potential vulnerabilities in your code more quickly and easily than manual testing.
+In development of this project, I decided to Jest test memorygame.js using the unit testing approach. After researching through online documents and YouTube tutorials I found that this form of testing would allow for the testing of specific code to ensure each element of the java script was working correctly.                                     
+#### Results
+![Image](/resources/testing/jest-testing-results.png)
 ***
 ### W3C Validator
 
