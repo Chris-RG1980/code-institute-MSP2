@@ -214,22 +214,21 @@ body{
 
 #matching-marvel h3 {
   font-size: 4rem;
-  color: #ffbe0b;
+  color: #d30010;
   text-shadow: 6px 4px 0 #000;
 }
 
 .matching-marvel-tag {
   font-size: 1.5rem;
-  color: #309305;
-  text-shadow: 2px 2px 0 #000;
+  color: #000000;
   font-weight: bold;
 }
 
 .play-click {
-  color: #048BA8;
+  color: #d30010;
   text-align: center;
   font-size: 3rem;
-  text-shadow: 2px 3px 0 #000;
+  text-shadow: 6px 4px 0 #000;
 }
 
 /* Image for marvel Game (game.html) */
@@ -244,7 +243,7 @@ body{
   font-size: 3rem;
   text-align: center;
   margin: 0;
-  color: #ffbe0b;
+  color: #d30010;
   text-shadow: 4px 4px 0 #000;
 }
 
