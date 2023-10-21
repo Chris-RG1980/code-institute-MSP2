@@ -128,34 +128,47 @@ Testing has been carried out on the browsers within the below table as these bro
 #### New User
 | Goals | How they are achieved |
 | :-----| :--------------------:|
+|I would like to see how fast I can complete the game. | The game contains a timer that starts counting when the player makes their first click. |
+|I would like to know how many moves it took me to complete the game. | The game contains a guess box which counts and displays the total moves a player takes to complete the game. |
+|I would like to know how to play the picture matching games. | The home page contains a list of instructions. |
 
 #### Returning User
 | Goals | How they are achieved |
 | :---- | :--------------------:|
-
+|I would like to be able to reset the game and aim for faster times. | There is a rest button under the game which can be used at any time during or after the game has finished. |
+|I would like to see if I can complete the game with less moves. | The player can use the guess box which will show them the number of moves taken and the player can then play the game again to try to lower that score. |
+|I would like to be able to play the game across on different devices. | The game is fully responsive and can be played across different devices. |
 ***
 ### Full Testing
 #### Interactive Elements
 **Header**
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: |
+|Clicking on any part of the header will return the user to the home page. | When clicked the user will be returned to the home page. | Clicked on header. | Returned to home page. | Pass |
 
 **Footer** 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: | 
+|Home page link | When clicked the user will be returned to the home page. | Clicked on home page link. | Redirected to home page.| Pass |
+|Matching Marvel link | When clicked this will take the user to the Matching Marvel game. | Clicked on Matching Marvel link. | Redirected to Matching Marvel game. | Pass |
+|Social Media Icons | When clicked these will take the user to the respective website. | Clicked on all Social Media Icons. | Redirected to the respective websites. | Pass | 
+
 
 **Home Page** 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: |
+|Matching Marvel game selector | When clicked this will take the user to the Matching Marvel game. | Clicked on Matching Marvel link. | Redirected to Matching Marvel game. | Pass |
 
 **Game Page** 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: |
+|Game Grid | When the game will start and the respective image will show. | Clicked on game grid. | Game started with timer and scores. All respective images are shown. | Pass |
+|Reset Button | When clicked the game will reset. | Clicked on reset button. | The game was reset with all game images hidden. | Pass |
 
 **404 Page** 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: |
-
+|Home page redirection | When the 404 page is displayed the user will automatically be redirected to the home page after 30 seconds. | Displayed 404 page. | Redirected to home page after 30 seconds. | Pass |
 ***
 ## Bugs
 ### Solved Bugs
