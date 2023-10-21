@@ -1,4 +1,4 @@
-import { MemoryGame } from './memorygame.js'
+import { MemoryGame } from './memorygame.js';
 // Game data for the marvel matching game (An array of image objects)
 const gameData = [
   {id: 1, image: '/assets/images/black-panther.webp' },
@@ -11,8 +11,10 @@ const gameData = [
   {id: 8, image: '/assets/images/thor.webp'}
 ];
 
-/* New game variables. They are reset to these values every time a 
-new game is started */
+/* 
+  New game variables. They are reset to these values every time a 
+  new game is started
+*/
 let game = new MemoryGame(gameData);
 let selectionReset = false;
 let isGameStarted = false;
@@ -26,19 +28,21 @@ setupGame();
 function setupGame() {
   for (let i = 0; i < game.gameData.length; i++) {
     $(".game-container").append(`<div class="game-item shake"></div>`);
-  };
+  }
   addEventListeners();
   game.start();
   totalGuess(0);
   totalMatches(0);
-};
+}
 
-/* Adds click event listeners to each div and 
-calls the getTotalTime function to run every 100 milliseconds */
+/*
+  Adds click event listeners to each div and 
+  calls the getTotalTime function to run every 100 milliseconds
+*/
 function addEventListeners() {
   $(".game-item").click(gameItemClick);
   $("#reset-button").click(resetGame);
-  setInterval(getTotalTime, 100) 
+  setInterval(getTotalTime, 100); 
 }
 
 // Calculates time in minutes and seconds then displays it in the time box
@@ -67,9 +71,12 @@ function gameItemClick() {
 // Adds a class of clicked to the imaged that has been clicked.
   $(this).addClass("clicked");
 
-  let gameItemPosition = $(this).index(); // This is the index of the game image that has been clicked
-  let gameGuess = game.guess(gameItemPosition); // This variable holds the guess function with the index of the clicked game image as a parameter. 
-  selectionReset = gameGuess.isMaxAmountOfGuesses && !gameGuess.isMatch; // Results true if two images have been clicked and not matched.
+  // This is the index of the game image that has been clicked
+  let gameItemPosition = $(this).index();
+  // This variable holds the guess function with the index of the clicked game image as a parameter. 
+  let gameGuess = game.guess(gameItemPosition);
+  // Results true if two images have been clicked and not matched.
+  selectionReset = gameGuess.isMaxAmountOfGuesses && !gameGuess.isMatch;
 
 // Finds the id of the images clicked and displays the corresponding image.
   let gameItem = gameGuess.originalGuessedItems.find(x => x.position == gameItemPosition);
@@ -79,8 +86,10 @@ function gameItemClick() {
     $(".game-item.clicked").removeClass("clicked").addClass("matched");
   }
 
-  totalGuess(gameGuess.numberOfGuessesTaken); // This variable holds the number of guesses taken to complete the game.
-  totalMatches(gameGuess.matchScore); //This variable holds the total game score.
+  // This variable holds the number of guesses taken to complete the game.
+  totalGuess(gameGuess.numberOfGuessesTaken);
+  //This variable holds the total game score.
+  totalMatches(gameGuess.matchScore);
 
   // If the game is completed this function stops the timer and displays an alert.
   if (gameGuess.isGameWon) {
