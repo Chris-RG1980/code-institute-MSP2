@@ -1,5 +1,7 @@
-/* Timer to count how long the user takes to complete the game.
-Credit: Tomasz Bubała - https://stackoverflow.com/questions/29971898/how-to-create-an-accurate-timer-in-javascript */
+/*
+  Timer to count how long the user takes to complete the game.
+  Credit: Tomasz Bubała - https://stackoverflow.com/questions/29971898/how-to-create-an-accurate-timer-in-javascript
+*/
 class Timer {
   constructor () {
     this.isRunning = false;
