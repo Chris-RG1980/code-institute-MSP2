@@ -87,7 +87,19 @@ The one unused variable is due to the timer being used within script.js
 
 ***
 ### Lighthouse
+The lighthouse results can be found for each page below.                                    
 
+**_Home Page_**                                 
+
+![Image](resources/testing/lighthouse-index.png)                                      
+
+**_Game Page_**                                
+
+![Image](resources/testing/lighthouse-game.png)                                  
+
+**_404 Page_**                                              
+
+![Image](resources/testing/lighthouse-error.png)
 ***
 ### Wave
 
