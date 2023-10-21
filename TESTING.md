@@ -54,7 +54,7 @@ Desktop 1080p: 1920 x 1080
 ## Automated Testing
 ### Jest Testing
 Automated testing enhances efficiency and bug detection. It also helps find potential vulnerabilities in your code more quickly and easily than manual testing.
-In development of this project, I decided to Jest test memorygame.js using the unit testing approach. After researching through online documents and YouTube tutorials I found that this form of testing would allow for the testing of specific code to ensure each element of the JavaScript was working correctly.                                     
+In development of this project, I decided to Jest test memorygame.js using the unit testing approach. After researching through online documents and YouTube tutorials I found that this form of testing would allow for the testing of specific code to ensure each element of the JavaScript was working correctly. Also as seen below, I have achieved 100% coverage of memorygame.js                                  
 #### Results
 ![Image](/resources/testing/jest-testing-results.png)                                                     
 
@@ -128,42 +128,60 @@ Testing has been carried out on the browsers within the below table as these bro
 #### New User
 | Goals | How they are achieved |
 | :-----| :--------------------:|
+|I would like to see how fast I can complete the game. | The game contains a timer that starts counting when the player makes their first click. |
+|I would like to know how many moves it took me to complete the game. | The game contains a guess box which counts and displays the total moves a player takes to complete the game. |
+|I would like to know how to play the picture matching games. | The home page contains a list of instructions. |
 
 #### Returning User
 | Goals | How they are achieved |
 | :---- | :--------------------:|
-
+|I would like to be able to reset the game and aim for faster times. | There is a rest button under the game which can be used at any time during or after the game has finished. |
+|I would like to see if I can complete the game with less moves. | The player can use the guess box which will show them the number of moves taken and the player can then play the game again to try to lower that score. |
+|I would like to be able to play the game across on different devices. | The game is fully responsive and can be played across different devices. |
 ***
 ### Full Testing
 #### Interactive Elements
 **Header**
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: |
+|Clicking on any part of the header will return the user to the home page. | When clicked the user will be returned to the home page. | Clicked on header. | Returned to home page. | Pass |
 
 **Footer** 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: | 
+|Home page link | When clicked the user will be returned to the home page. | Clicked on home page link. | Redirected to home page.| Pass |
+|Matching Marvel link | When clicked this will take the user to the Matching Marvel game. | Clicked on Matching Marvel link. | Redirected to Matching Marvel game. | Pass |
+|Social Media Icons | When clicked these will take the user to the respective website. | Clicked on all Social Media Icons. | Redirected to the respective websites. | Pass | 
+
 
 **Home Page** 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: |
+|Matching Marvel game selector | When clicked this will take the user to the Matching Marvel game. | Clicked on Matching Marvel link. | Redirected to Matching Marvel game. | Pass |
 
 **Game Page** 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: |
+|Game Grid | When the game will start and the respective image will show. | Clicked on game grid. | Game started with timer and scores. All respective images are shown. | Pass |
+|Reset Button | When clicked the game will reset. | Clicked on reset button. | The game was reset with all game images hidden. | Pass |
 
 **404 Page** 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :-----: | :--------------: | :---------------: | :----: | :-------: |
-
+|Home page redirection | When the 404 page is displayed the user will automatically be redirected to the home page after 30 seconds. | Displayed 404 page. | Redirected to home page after 30 seconds. | Pass |
 ***
 ## Bugs
 ### Solved Bugs
 | Bug | Solution |
 |:----| :------: |
+|The initial chosen background image would not scale to cover the total viewport. | The background image was changed to a repeating pattern background image which allows it to scale. |
+|During testing the responsiveness of the website, the reset button would not scale correctly leaving the word "reset" to escape the box. ![Image](resources/testing/bug-reset-button.png)  | To combat this the width of the reset button was changed to 35%. |
+|After manual testing te game I found that the game array would not randomise when the reset button was pressed. | Adding the start function to the resetGame function in scripts.js would call a new instance of that game and randomise the array. |
+
 
 ### Known Bugs
 | Page | Bug |
 | :--- | :-----: |
+| 404 Page | Currently, the Wave Tool has detected an error on the 404 page. This error is a result of the automatic redirection to the home page. While the redirection feature provides a valuable user experience, it triggers an issue with the Wave Tool's evaluation. |
 
 ***
