@@ -54,7 +54,7 @@ Desktop 1080p: 1920 x 1080
 ## Automated Testing
 ### Jest Testing
 Automated testing enhances efficiency and bug detection. It also helps find potential vulnerabilities in your code more quickly and easily than manual testing.
-In development of this project, I decided to Jest test memorygame.js using the unit testing approach. After researching through online documents and YouTube tutorials I found that this form of testing would allow for the testing of specific code to ensure each element of the JavaScript was working correctly.                                     
+In development of this project, I decided to Jest test memorygame.js using the unit testing approach. After researching through online documents and YouTube tutorials I found that this form of testing would allow for the testing of specific code to ensure each element of the JavaScript was working correctly. Also as seen below, I have achieved 100% coverage of memorygame.js                                  
 #### Results
 ![Image](/resources/testing/jest-testing-results.png)                                                     
 
@@ -174,9 +174,14 @@ Testing has been carried out on the browsers within the below table as these bro
 ### Solved Bugs
 | Bug | Solution |
 |:----| :------: |
+|The initial chosen background image would not scale to cover the total viewport. | The background image was changed to a repeating pattern background image which allows it to scale. |
+|During testing the responsiveness of the website, the reset button would not scale correctly leaving the word "reset" to escape the box. ![Image](resources/testing/bug-reset-button.png)  | To combat this the width of the reset button was changed to 35%. |
+|After manual testing te game I found that the game array would not randomise when the reset button was pressed. | Adding the start function to the resetGame function in scripts.js would call a new instance of that game and randomise the array. |
+
 
 ### Known Bugs
 | Page | Bug |
 | :--- | :-----: |
+| 404 Page | Currently, the Wave Tool has detected an error on the 404 page. This error is a result of the automatic redirection to the home page. While the redirection feature provides a valuable user experience, it triggers an issue with the Wave Tool's evaluation. |
 
 ***
