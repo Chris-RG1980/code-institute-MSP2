@@ -51,6 +51,23 @@ body{
   box-sizing: border-box;
 }
 
+.backdrop {
+  position: relative;
+}
+
+.backdrop:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height:100%;
+  background:rgba(0,0,0,0.3);
+}
+
+.backdrop > a {
+  position: relative;
+  z-index: 1;
+}
+
 .anchor {
   text-decoration: none;
 }
@@ -62,6 +79,7 @@ body{
   margin: 0;
   text-shadow: 6px 4px 0 #000;
 }
+
 
 /* Used in heading of index.html */
 
@@ -190,7 +208,6 @@ body{
   width: 50%;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 10px;
   background-image: url(/assets/images/marvel-background.webp);
   background-size: cover;
 }
