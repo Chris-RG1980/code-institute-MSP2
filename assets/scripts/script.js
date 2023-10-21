@@ -1,14 +1,14 @@
 import { MemoryGame } from './memorygame.js';
 // Game data for the marvel matching game (An array of image objects)
 const gameData = [
-  {id: 1, image: '../images/black-panther.webp' },
-  {id: 2, image: '../images/captain-america.webp' },
-  {id: 3, image: '../images/captain-marvel.webp' },
-  {id: 4, image: '../images/groot.webp' },
-  {id: 5, image: '../images/hulk.webp'},
-  {id: 6, image: '../images/iron-man.webp' },
-  {id: 7, image: '../images/spiderman.webp' },
-  {id: 8, image: '../images/thor.webp'}
+  {id: 1, image: 'assets/images/black-panther.webp' },
+  {id: 2, image: 'assets/images/captain-america.webp' },
+  {id: 3, image: 'assets/images/captain-marvel.webp' },
+  {id: 4, image: 'assets/images/groot.webp' },
+  {id: 5, image: 'assets/images/hulk.webp'},
+  {id: 6, image: 'assets/images/iron-man.webp' },
+  {id: 7, image: 'assets/images/spiderman.webp' },
+  {id: 8, image: 'assets/images/thor.webp'}
 ];
 
 /* 
@@ -66,7 +66,7 @@ function gameItemClick() {
   }
 // If the selected images do not match the clicked class is removed and the background image replaced.
   if (selectionReset) {
-    $(".game-item:not(.matched)").css("background-image", `url(../images/question-mark.webp)`).removeClass("clicked");
+    $(".game-item:not(.matched)").css("background-image", `url(assets/images/question-mark.webp)`).removeClass("clicked");
   }
 // Adds a class of clicked to the imaged that has been clicked.
   $(this).addClass("clicked");
@@ -115,7 +115,7 @@ function totalMatches(matchScore) {
 
 // Function to reset the game.
 function resetGame() {
-  $(".game-item").css("background-image", `url(../images/question-mark.webp)`).removeClass("matched");
+  $(".game-item").css("background-image", `url(assets/images/question-mark.webp)`).removeClass("matched");
   game.reset();
   timer.reset();
   totalGuess(0);
