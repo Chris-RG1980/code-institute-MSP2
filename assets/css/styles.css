@@ -29,7 +29,7 @@
 /* Background Image (All Pages)*/
 
 body{
-  background-image: url("/assets/images/game-cover-image.webp");
+  background-image: url("assets/images/game-cover-image.webp");
   background-size: cover;
   font-family: Quicksand, sans-serif;
 }
@@ -208,7 +208,7 @@ body{
   width: 50%;
   margin: 0 auto;
   box-sizing: border-box;
-  background-image: url(/assets/images/marvel-background.webp);
+  background-image: url(assets/images/marvel-background.webp);
   background-size: cover;
 }
 
@@ -235,7 +235,7 @@ body{
 /* Image for marvel Game (game.html) */
 
 .marvel-image {
-  background-image: url(/assets/images/marvel-background.webp);
+  background-image: url(assets/images/marvel-background.webp);
 }
 
 /* Marvel game header (game.html) */
@@ -281,7 +281,7 @@ body{
 .game-item  {
   width: 100%;
   height: 200px;
-  background-image: url(/assets/images/question-mark.webp);
+  background-image: url(assets/images/question-mark.webp);
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 

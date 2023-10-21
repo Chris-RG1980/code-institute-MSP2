@@ -1,14 +1,14 @@
 import { MemoryGame } from './memorygame.js';
 // Game data for the marvel matching game (An array of image objects)
 const gameData = [
-  {id: 1, image: '/assets/images/black-panther.webp' },
-  {id: 2, image: '/assets/images/captain-america.webp' },
-  {id: 3, image: '/assets/images/captain-marvel.webp' },
-  {id: 4, image: '/assets/images/groot.webp' },
-  {id: 5, image: '/assets/images/hulk.webp'},
-  {id: 6, image: '/assets/images/iron-man.webp' },
-  {id: 7, image: '/assets/images/spiderman.webp' },
-  {id: 8, image: '/assets/images/thor.webp'}
+  {id: 1, image: 'assets/images/black-panther.webp' },
+  {id: 2, image: 'assets/images/captain-america.webp' },
+  {id: 3, image: 'assets/images/captain-marvel.webp' },
+  {id: 4, image: 'assets/images/groot.webp' },
+  {id: 5, image: 'assets/images/hulk.webp'},
+  {id: 6, image: 'assets/images/iron-man.webp' },
+  {id: 7, image: 'assets/images/spiderman.webp' },
+  {id: 8, image: 'assets/images/thor.webp'}
 ];
 
 /* 
