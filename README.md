@@ -1,13 +1,15 @@
 # The Matching Games
 Welcome to "The Matching Games", the home of matching games! "The Matching Games" is a home for picture matching games that not only provides hours of entertainment but also enhances cognitive skills and memory in a fun and interactive way. Whether you're a young explorer seeking adventure or a parent looking for an engaging and educational activity for your child, this game is made to bring joy and excitement to players of all ages. 
 
-![Image](resources/all-devices-black.png)
+![Image](resources/all-devices-black.png)                                                                     
 
 ![Static Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Static Badge](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
-![Static Badge](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)                        
+
+[Click here to view live website](https://chris-rg1980.github.io/code-institute-MSP2/)   
 ***
 **Contents**
 - [The Matching Games](#the-matching-games)
@@ -148,6 +150,7 @@ The Matching Games and the Matching Marvel game are designed with a responsive l
 - [Tinypng](https://tinypng.com/) - For image Optimisation.
 - [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Web Developer Tools.                  
 - [AI Image Generator](https://www.freepik.com/ai/image-generator) - To generate the game images. 
+- [Sweet Alert](https://sweetalert2.github.io/) - To generate the alert box.                    
 ***
 ## Testing
 Please see [TESTING.md](/TESTING.md) for all testing performed.
@@ -199,6 +202,7 @@ To release new features a pull request needs to be completed from the developmen
  - [Background Image](https://www.freepik.com/free-photos-vectors/comic-pattern) - Image by dgim-studio on Freepik.
  - [Marvel Title Image](https://wallpapers.com/wallpapers/marvel-all-in-one-3twzbzkk15m1le1f.html) - Image by romine_hakme on wallpapers.com.
  - [oops! Image](https://www.freepik.com/search?format=search&query=comic+pattern+error) - Image by brgfx on Freepik.
+ - [Social Media Icons](https://www.iconfinder.com/social-media-icons)                                
   
 ### Other Credits
 - [freeCodeCamp](https://www.freecodecamp.org/)
