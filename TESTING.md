@@ -93,7 +93,9 @@ The one unused variable is due to the timer being used within script.js
 
 ***
 ## Browser Compatibility
+Testing has been carried out on the browsers within the below table as these browsers are most used, but in addition to this Firefox uses Gecko rendering engine while the others use WebKit. This helps identify any inconsistencies or rendering discrepancies that may arise due to variations in the rendering engines.             
 
+![Image](resources/testing/browser-testing.png)
 ***
 ## Manual Testing
 ### Testing User Stories
