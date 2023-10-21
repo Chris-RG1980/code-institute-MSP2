@@ -66,7 +66,7 @@ function gameItemClick() {
   }
 // If the selected images do not match the clicked class is removed and the background image replaced.
   if (selectionReset) {
-    $(".game-item:not(.matched)").css("background-image", `url(/assets/images/question-mark.webp)`).removeClass("clicked");
+    $(".game-item:not(.matched)").css("background-image", `url(assets/images/question-mark.webp)`).removeClass("clicked");
   }
 // Adds a class of clicked to the imaged that has been clicked.
   $(this).addClass("clicked");
@@ -115,7 +115,7 @@ function totalMatches(matchScore) {
 
 // Function to reset the game.
 function resetGame() {
-  $(".game-item").css("background-image", `url(/assets/images/question-mark.webp)`).removeClass("matched");
+  $(".game-item").css("background-image", `url(assets/images/question-mark.webp)`).removeClass("matched");
   game.reset();
   timer.reset();
   totalGuess(0);
