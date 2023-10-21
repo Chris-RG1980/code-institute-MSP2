@@ -60,7 +60,7 @@ body{
   position: absolute;
   width: 100%;
   height:100%;
-  background:rgba(0,0,0,0.3);
+  background:rgba(255,255,255,0.35);
 }
 
 .backdrop > a {
@@ -221,7 +221,7 @@ body{
 .matching-marvel-tag {
   font-size: 1.5rem;
   color: #309305;
-  text-shadow: 6px 2px 0 #000;
+  text-shadow: 2px 2px 0 #000;
   font-weight: bold;
 }
 
@@ -229,7 +229,7 @@ body{
   color: #048BA8;
   text-align: center;
   font-size: 3rem;
-  text-shadow: 6px 4px 0 #000;
+  text-shadow: 2px 3px 0 #000;
 }
 
 /* Image for marvel Game (game.html) */
