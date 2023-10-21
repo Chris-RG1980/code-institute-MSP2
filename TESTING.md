@@ -102,7 +102,21 @@ The lighthouse results can be found for each page below.
 ![Image](resources/testing/lighthouse-error.png)
 ***
 ### Wave
+Currently, the Wave Tool has detected an error on the 404 page. This error is a result of the automatic redirection to the home page. While the redirection feature provides a valuable user experience, it triggers an issue with the Wave Tool's evaluation.                                                               
 
+The automatic redirection function adds significant value to our users, by automatically redirecting them to the home page without requiring any additional input. This will enhance the overall convenience and efficiency of their browsing experience.                                                                            
+
+**_Home Page_**                                                                                   
+
+![Image](resources/testing/wave-index.png)                                              
+
+**_Game Page_**                                                                 
+
+![Image](resources/testing/wave-game.png)                                                             
+
+**_404 Page_**                                                  
+
+![Image](resources/testing/wave-error.png)
 ***
 ## Browser Compatibility
 Testing has been carried out on the browsers within the below table as these browsers are most used, but in addition to this Firefox uses Gecko rendering engine while the others use WebKit. This helps identify any inconsistencies or rendering discrepancies that may arise due to variations in the rendering engines.             
