@@ -139,9 +139,9 @@ The Matching Games and the Matching Marvel game are designed with a responsive l
 - Javascript                       
 ### Frameworks
 - [Jest](https://jestjs.io/) - To test the core game logic.
-- [jQuery](https://jquery.com/) - To connect the user interface with the javascript logic.
 ### Libraries
-- [Google Fonts](https://fonts.google.com/) - To select and Import fonts.                        
+- [Google Fonts](https://fonts.google.com/) - To select and Import fonts.                                          
+- [jQuery](https://jquery.com/) - To connect the user interface with the javascript logic.                    
 ### Utilities Used
 - [Balsamiq Wire-frames](https://balsamiq.com/) - To create wire-frames.
 - [Figma](https://www.figma.com/) - To create initial design concept.
