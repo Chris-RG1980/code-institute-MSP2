@@ -61,7 +61,10 @@ Welcome to "The Matching Games", the home of matching games! "The Matching Games
 3.  I would like to be able to play the game across on different devices. 
 ***
 ## Features
-Within the game I have used Object-Oriented Programming (OOP) so that the game can accept different data sets to have different themes per game. This means that the game is structured around objects, which are instances of classes that contain data and methods. The use of OOP allows for greater flexibility and modularity in the code, making it easier to unit test, extend existing features or add new ones and for other developers to pick up core functionality. By accepting different data sets, the game can be customized to suit different themes, such as sports, animals, or movies. This makes it more engaging and enjoyable for players who have different interests and preferences.
+Within the game I have used Object-Oriented Programming (OOP) so that the game can accept different data sets to have different themes per game. This means that the game is structured around objects, which are instances of classes that contain data and methods. The use of OOP allows for greater flexibility and modularity in the code, making it easier to unit test, extend existing features or add new ones and for other developers to pick up core functionality. By accepting different data sets, the game can be customized to suit different themes, such as sports, animals, or movies. This makes it more engaging and enjoyable for players who have different interests and preferences.  
+
+This website is made up of a main home page that lists individual games, each of which is self-contained. A navigation menu is not included. However, if you wish to return to the home page from a game page, simply click on the header. This will redirect you to the homepage. Although this feature is not explicitly stated on the website, it should be intuitive to the user.
+
 ### Existing Features
 - Instructions & Gameplay *(See figure 1 below)*      
 Description: This section provides a detailed explanation of how to play the matching memory games.  
