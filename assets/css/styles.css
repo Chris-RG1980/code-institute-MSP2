@@ -80,7 +80,6 @@ body{
   text-shadow: 6px 4px 0 #000;
 }
 
-
 /* Used in heading of index.html */
 
 .tag-line {
@@ -151,6 +150,12 @@ body{
   font-size: 1.5rem;
 }
 
+.name-tag-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .name-tag {
   font-size: 1.5rem;
   font-weight: bold;
@@ -174,6 +179,7 @@ body{
 
 .social-media-icons li a {
   text-decoration: none;
+  display: block;
 }
 
 /* Instructions Box (index.html)*/
@@ -289,8 +295,7 @@ body{
 /* Reset Button (game.html)*/
 
 #reset-button {
-  width: 35%;
-  height: 75px;
+  padding: 0 60px;
   border: 10px solid #000000;
   margin-top: 10px;
   color: #ffffff;
@@ -328,13 +333,17 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1680px) {
   .game-item {
     height: 175px;
   }
+
+  .social-media-icons img {
+    width: 46px;
+  }
 }
 
-@media screen and (max-width: 1400px ) {
+@media screen and (max-width: 1400px) {
   .game-item {
     height: 150px;
   }
@@ -409,6 +418,7 @@ button:hover {
   }
 
   #reset-button {
+    padding: 0px 40px;
     font-size: 2rem;
   }
 }
@@ -442,6 +452,7 @@ button:hover {
   }
 
   #reset-button {
+    padding: 0px 20px;
     font-size: 1rem;
   }
 }
