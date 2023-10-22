@@ -1,9 +1,9 @@
 export class MemoryGame {
+  constructor(gameData, shouldRandomise) {
   /*
     An error will be displayed in the console if the game data
     passed in to the constructor is not an array.
   */
-  constructor(gameData, shouldRandomise) {
     if (!(gameData instanceof Array)) {
       throw new Error("Parameter is not an Array!");
     }

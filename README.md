@@ -61,7 +61,7 @@ Welcome to "The Matching Games", the home of matching games! "The Matching Games
 3.  I would like to be able to play the game across on different devices. 
 ***
 ## Features
-Within the game I have used Object-Oriented Programming (OOP) so that the game can accept different data sets to have different themes per game. This means that the game is structured around objects, which are instances of classes that contain data and methods. The use of OOP allows for greater flexibility and modularity in the code, making it easier to add new features or modify existing ones and making unit testing easier. By accepting different data sets, the game can be customized to suit different themes, such as sports, animals, or movies. This makes it more engaging and enjoyable for players who have different interests and preferences.
+Within the game I have used Object-Oriented Programming (OOP) so that the game can accept different data sets to have different themes per game. This means that the game is structured around objects, which are instances of classes that contain data and methods. The use of OOP allows for greater flexibility and modularity in the code, making it easier to unit test, extend existing features or add new ones and for other developers to pick up core functionality. By accepting different data sets, the game can be customized to suit different themes, such as sports, animals, or movies. This makes it more engaging and enjoyable for players who have different interests and preferences.
 ### Existing Features
 - Instructions & Gameplay *(See figure 1 below)*      
 Description: This section provides a detailed explanation of how to play the matching memory games.  
@@ -111,7 +111,7 @@ The Matching Games will offer a user-friendly experience that's easy to grasp fo
 ### Simple User Interface
 The Matching Games and the Matching Marvel game will boast a clean and straightforward user interface. Upon launching the game, you'll be greeted by a comic style background that sets the tone for your adventure. The grid of 16 squares takes center stage, and each square holds a question mark image to be clicked to reveal what is hidden beneath. The instructions will be simple and clear to read with black text on a white background. The score boxes and time will be placed just above the game play area for ease of access.
 ### Typography
-The font Bangers will be used for the website name to infuse a sense of playfulness and excitement to engage a younger audience. For section headings, Boogaloo will be used. A font that adds character and liveliness to the page, ensuring that each section feels engaging and enjoyable. The fallback for both bangers and boogaloo will be cursive. To maintain optimal readability and accessibility for our young audience, I have selected Quicksand as our body text font. Its clean and straightforward sans-serif style ensures that the content is easy to read and comprehend. The fallback for quicksand will be sans-serif. These fonts, all sourced from Google Fonts, work to create an online environment that grabs the attention of a younger audience while prioritizing a positive user experience.  
+The font Bangers will be used for the website name to create a sense of playfulness and excitement to engage a younger audience. For section headings, Boogaloo will be used. A font that adds character and liveliness to the page, ensuring that each section feels engaging and enjoyable. The fallback for both bangers and boogaloo will be cursive. To maintain optimal readability and accessibility for our young audience, I have selected Quicksand as our body text font. Its clean and straightforward sans-serif style ensures that the content is easy to read and comprehend. The fallback for quicksand will be sans-serif. These fonts, all sourced from Google Fonts, work to create an online environment that grabs the attention of a younger audience while prioritising a positive user experience.  
 
 ![image](resources/bangers.png)  
 ![image](resources/boogaloo.png)
@@ -121,13 +121,13 @@ The color choices for the website were carefully selected to create a vibrant an
 
 ![image](resources/matching%20marvel-colours.png)
 ### Interactive Elements
-To make your journey more engaging, we've incorporated interactive elements that respond seamlessly to your actions. Tap or click on a square to reveal the image beneath it. The animations have been designed to provide a good sensory experience.
+To make the journey more engaging interactive elements have been created respond to your actions. Touch or click on a square to reveal the image beneath it. The animations have been designed to provide a good sensory experience.
 ### Visual Feedback
-The game offers intuitive visual feedback to keep you informed throughout your exploration. When you uncover two matching images, they'll remain visible. Conversely, if your selections do not match, the squares will return to their hidden state.
+The game offers intuitive visual feedback to keep you informed throughout your gameplay. When you uncover two matching images, they'll remain visible. Otherwise if your selections do not match, the squares will return to their hidden state.
 ### Progress Tracking
 Matching Marvel features a progress tracker that keeps you informed about your performance. A score counter and a timer are readily visible, helping you measure your progress and challenge yourself to improve. 
 ### Responsive Design
-The Matching Games and the Matching Marvel game are designed with a responsive layout, ensuring that the website adapts seamlessly to different devices and screen sizes. Whether accessed from a desktop, tablet, or mobile device, users will have a consistent and optimized experience.                
+The Matching Games and the Matching Marvel game are designed with a responsive layout, ensuring that the website adapts seamlessly to different devices and screen sizes. Whether accessed from a desktop, tablet, or mobile device, users will have a consistent and optimised experience.                
 ***
 ## Technology
 ### Languages  Used
@@ -186,11 +186,9 @@ To release new features a pull request needs to be completed from the developmen
 5. Git will download the repository files onto your computer, creating a new directory with the repository name.
 ### Setting up Jest testing environment
 1. Within your IDE open a terminal window.
-2. Within the terminal type `npm init -y` and press enter.
-3. After the json package has installed type `npm i --save-dev jest` into the terminal and press enter.
-4. Open the package.json file and change the "test" script to "test": "jest"
-5. Or if you wish to add a coverage check to the tests, open the package.json file and change the "test" script to "test": "jest --coverage"
-6. To run the tests type `npm test` into the terminal and press enter.
+2. Within the terminal type `npm i` and press enter.
+3. To run the tests type `npm run test` into the terminal and press enter.
+4. To see the coverage of the tests type `npm run coverage` into the terminal and press enter.
 ***
 ## Credits
 ### Code
@@ -211,7 +209,7 @@ To release new features a pull request needs to be completed from the developmen
 - [Web Dev Cody](https://www.youtube.com/@WebDevCody)
 ### Thank You
 * Iris Smok (Cohort Facilitator) for providing support and guidance within weekly stand ups.
-* Adam Davies for help with additional testing of the website. 
+* Adam Davies and Aaron Quinn for help with additional testing of the website. 
 ***
 
 

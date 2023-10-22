@@ -29,7 +29,7 @@
 
 ***
 ## Responsiveness
-This website has been tested on a wide range of screen sizes from various manufacturers to account for the differences between them. It’s crucial to test website responsiveness due to the growing use of mobile devices. A responsive website guarantees a uniform user experience across different screen sizes and resolutions, making it easy for visitors to access and navigate the site, regardless of the device they’re using. Additionally, responsive design enhances search engine optimization (SEO), as search engines prioritize mobile-friendly sites in their rankings.
+This website has been tested on a wide range of screen sizes from various manufacturers to account for the differences between them. It’s crucial to test website responsiveness due to the web being mostly accessed using mobile devices. A responsive website guarantees a uniform user experience across different screen sizes and resolutions, making it easy for visitors to access and navigate the site, regardless of the device they’re using. Additionally, responsive design enhances search engine optimization (SEO), as search engines prioritize mobile-friendly sites in their rankings. The testing has been carried out using the device list on the chrome developer tools.
 
 The resolutions tested as as follows:                        
 Galaxy S III: 360 x 640                               
@@ -49,12 +49,11 @@ Desktop 1080p: 1920 x 1080
 ### Summary
 ![Image](/resources/testing/responsive-summary.png)
 
-
 ***
 ## Automated Testing
 ### Jest Testing
-Automated testing enhances efficiency and bug detection. It also helps find potential vulnerabilities in your code more quickly and easily than manual testing.
-In development of this project, I decided to Jest test memorygame.js using the unit testing approach. After researching through online documents and YouTube tutorials I found that this form of testing would allow for the testing of specific code to ensure each element of the JavaScript was working correctly. Also as seen below, I have achieved 100% coverage of memorygame.js                                  
+Automated testing enhances efficiency and bug detection. It helps with finding bugs with code that has changed during development without the need of full manual testing.
+In development of this project, I decided to use Jest to test the core memory game logic using the unit testing approach. After researching through online documents and YouTube tutorials I found that this form of testing would allow for the testing of specific code to ensure each element of the JavaScript was working correctly. Also as seen below, I have achieved 100% coverage of memorygame.js.                                 
 #### Results
 ![Image](/resources/testing/jest-testing-results.png)                                                     
 
@@ -175,8 +174,8 @@ Testing has been carried out on the browsers within the below table as these bro
 | Bug | Solution |
 |:----| :------: |
 |The initial chosen background image would not scale to cover the total viewport. | The background image was changed to a repeating pattern background image which allows it to scale. |
-|During testing the responsiveness of the website, the reset button would not scale correctly leaving the word "reset" to escape the box. ![Image](resources/testing/bug-reset-button.png)  | To combat this the width of the reset button was changed to 35%. |
-|After manual testing te game I found that the game array would not randomise when the reset button was pressed. | Adding the start function to the resetGame function in scripts.js would call a new instance of that game and randomise the array. |
+|During testing the responsiveness of the website, the reset button would not scale correctly leaving the word "reset" to escape the box. ![Image](resources/testing/bug-reset-button.png)  | To fix this issue the width percentage was removed and padding was added for spacing, meaning the width would react to the content and not the width percentage. |
+|After manual testing the game I found that the game array would not randomise when the reset button was pressed. | Adding the start function to the resetGame function in scripts.js would call a new instance of that game and randomise the array. |
 
 
 ### Known Bugs
