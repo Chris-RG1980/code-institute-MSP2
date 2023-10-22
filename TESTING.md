@@ -127,16 +127,28 @@ Testing has been carried out on the browsers within the below table as these bro
 #### New User
 | Goals | How they are achieved |
 | :-----| :--------------------:|
-|I would like to see how fast I can complete the game. | The game contains a timer that starts counting when the player makes their first click. |
-|I would like to know how many moves it took me to complete the game. | The game contains a guess box which counts and displays the total moves a player takes to complete the game. |
-|I would like to know how to play the picture matching games. | The home page contains a list of instructions. |
+|I would like to see how fast I can complete the game. | The game contains a timer that starts counting when the player makes their first click. _Please see image 1 below._ |
+|I would like to know how many moves it took me to complete the game. | The game contains a guess box which counts and displays the total moves a player takes to complete the game. _Please see image 1 below._ |
+|I would like to know how to play the picture matching games. | The home page contains a list of instructions. _Please see image 2 below._ |
 
 #### Returning User
 | Goals | How they are achieved |
 | :---- | :--------------------:|
-|I would like to be able to reset the game and aim for faster times. | There is a rest button under the game which can be used at any time during or after the game has finished. |
-|I would like to see if I can complete the game with less moves. | The player can use the guess box which will show them the number of moves taken and the player can then play the game again to try to lower that score. |
-|I would like to be able to play the game across on different devices. | The game is fully responsive and can be played across different devices. |
+|I would like to be able to reset the game and aim for faster times. | There is a rest button under the game which can be used at any time during or after the game has finished. _Please see image 3 below._ |
+|I would like to see if I can complete the game with less moves. | The player can use the guess box which will show them the number of moves taken and the player can then play the game again to try to lower that score. _Please see image 1 below._ |
+|I would like to be able to play the game across on different devices. | The game is fully responsive and can be played across different devices. _Please see Responsiveness section._ |                       
+
+**_Image 1_**                                                                                           
+
+![Image](resources/testing/user-stories-score.png)                                               
+
+**_Image 2_**                                                                   
+
+![Image](resources/testing/user-stories-instructions.png)                                                                        
+
+**_Image 3_**                                                                    
+
+![Image](resources/testing/user-stories-reset.png)                                 
 ***
 ### Full Testing
 #### Interactive Elements
